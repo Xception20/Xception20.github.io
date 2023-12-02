@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARM y Linux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #contenedor {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        #imagen-arm, #imagen-linux {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>ARM y Linux</h1>
+
+    <div id="contenedor">
+        <div>
+            <h2>ARM</h2>
+            <img id="imagen-arm" src="C:/Escritorio/examen-final.jpg" alt="Imagen ARM">
+            <p>ARM es una arquitectura de conjunto de instrucciones utilizada en la mayoría de los procesadores móviles y embebidos.</p>
+        </div>
+
+        <div>
+            <h2>Linux</h2>
+            <img id="imagen-linux" src="C:/Escritorio/examen-final1.jpg" alt="Imagen Linux">
+            <p>Linux es un sistema operativo de código abierto que se ejecuta en una variedad de plataformas, incluyendo dispositivos ARM.</p>
+        </div>
+    </div>
+
+    <h2>Recursos Adicionales</h2>
+    <ul>
+        <li><a href="https://www.arm.com/">Sitio oficial de ARM</a></li>
+        <li><a href="https://www.kernel.org/">Sitio oficial del kernel de Linux</a></li>
+    </ul>
+
+    <p>¡Explora más sobre ARM y Linux!</p>
+</body>
+</html>
